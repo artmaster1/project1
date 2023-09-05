@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Магазин выпечки</title>
-    <link rel="stylesheet" href="src\css\style.css">
+    <title>Магазин выпечки</title>     
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/normalize.css">  
+    <link rel="stylesheet" href="src/css/style.css">
     <meta name="description" content="Самая вкусная выпечка в Москве">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,700;1,300&family=Sofia+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+   
+   
+   
 
 
  
@@ -40,11 +42,39 @@
                 </div>                
             </div>
         </section>
-        <section> </section>
-        <section></section>
+        <section class=" section-description">
+            <div class="section-description__icon-box">
+                <img src="src/icons/01-Иконка.svg" alt="">
+                <img src="src/icons/02-Иконка.svg" alt="">
+                <img src="src/icons/03-Иконка.svg" alt="">
+
+            </div> 
+            <div class="section-description__text-box">
+                <h2 class="section-description__title">Выпечка - <span class="red">это </span>вкусно.</h2>
+                <p class="section-description__text">
+                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.
+
+                    По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.                    
+                </p>
+
+            </div>
+        </section>
+        <section class="section-map">
+            <h3 class="section-map__title">ЗАКАЗАТЬ</h3>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7bac535a38f0c5cb0f799c54b9f74a5ccbbc071a16d7699cc87c910f26389e09&amp;source=constructor" width="900" height="400" frameborder="0"></iframe>
+
+        </section>
     </main>
     <footer>
-        <nav></nav>
+        <hr>
+        <nav>
+            <ul>
+                <li class="about_Us"><a href="#">О НАС</a></li>
+                <li><a href="#">НОВОСТИ</a></li>
+                <li><a href="#">МЕНЮ</a></li>
+                <li><a href="#">КОНТАКТЫ</a></li>
+            </ul>                             
+        </nav>
     </footer>
  
 </body>
